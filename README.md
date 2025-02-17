@@ -39,3 +39,6 @@ Models are evaluated using accuracy and precision metrics.
 The Multinomial Naive Bayes (MNB) model performs best.
 6. User Input Interface
 A simple function allows users to input an SMS message and classify it as spam or ham using the trained model.
+
+# Results
+The Multinomial Naive Bayes (MNB) model achieved an accuracy of 97% and a precision score of 1.0, making it the best-performing model for this task.
