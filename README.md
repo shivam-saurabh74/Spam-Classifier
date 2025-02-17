@@ -1,16 +1,16 @@
 # Spam-Classifier
 This project is an SMS spam detection system using machine learning. The system classifies SMS messages into two categories: Ham (non-spam) and Spam. The goal is to use various machine learning algorithms to build an accurate classifier for identifying spam messages.
-#Project Overview
+# Project Overview
 This project involves:
   Loading and cleaning a dataset of SMS messages.
   Preprocessing the text data (including tokenization, stop-word removal, and stemming).
   Vectorizing the text using TF-IDF.
   Building and evaluating different machine learning models to classify the messages as ham (non-spam) or spam.
   Allowing the user to input a message and classify it as spam or ham.
-#Dataset
+# Dataset
 The dataset used in this project is the SMS Spam Collection dataset, which contains 5,572 SMS messages labeled as spam or ham. It can be found https://archive.ics.uci.edu/dataset/228/sms+spam+collection .
 
-#Key Steps
+# Key Steps
 1. Data Loading and Cleaning
 The dataset is loaded from a CSV file.
 Unnecessary columns are removed, and the remaining columns are renamed for clarity.
